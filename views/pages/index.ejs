@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <% include ../template/head %>
+</head>
+<body>
+   <% include ../template/header %>
+
+   <form id='search-form' action='/search' method='POST'>
+    <fieldset>
+    <legend>Book Search</legend>
+    <input name='searchText'/>
+    </fieldset>
+    <fieldset>
+    <label for='author'>Author</label>
+    <input type= 'radio' name= 'param' value='author'/>
+    </fieldset>
+    <fieldset>
+    <lable for='title'>Title</lable>  
+    <input type= 'radio' name= 'param' value='title'/>
+    </fieldset>
+    <button type='submit'>Submit</button>
+   </form> 
+  
+   <% include ../template/footer %>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../template/head %>
+</head>
+<body>
+    <% include ../template/header %>
+    <ul>
+        <% books.map(book => { %>
+        <li><%= book.title %> - <%= book.author %></li>
+       <% }) %>    
+    </ul>
+    <% include ../template/footer %>
+</body>
+</html>

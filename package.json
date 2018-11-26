@@ -1,0 +1,30 @@
+{
+  "name": "booksearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5",
+    "superagent": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MandanaTajoddin/BookSearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MandanaTajoddin/BookSearch/issues"
+  },
+  "homepage": "https://github.com/MandanaTajoddin/BookSearch#readme"
+}
